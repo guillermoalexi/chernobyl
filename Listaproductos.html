@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/csslistaproductos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body style=" background: #333;">
+        
+         <header>
+            <div class="contenedor">
+          
+                <h1 style="color: lime;" >Chernobyl Factory </h1>
+                
+                <input type="checkbox" id="menu-bar">
+                <label class="fontawesome-align-justify" for="menu-bar"></label>
+                <nav class="menu">
+                     <a href="index.html">Inicio</a>
+                      <a href="Productos.html">Regresar</a>
+                    <a href="Proximosproductos.html">Próximos productos</a>
+              
+
+                   
+                  
+                </nav>
+            </div>
+            </header>
+        <main class="bajo25" style="padding: 10px 0px; width: 100%;">
+    <form class="col-12 col-m-12 col-s-12" action="Carrito.php" method="POST">
+        
+            <div id="contenedor">
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <button  class="goku" style="  color: darkgreen;"  > <img src="imagenes/carrito.png" 
+                 style="width: 30px; height: 30px;"/><br/>Ver carrito de compras</button>
+
+                <input type="radio" name="filtro" id="todos" checked="yes">
+                <label for="todos">Todos</label>
+
+                <input type="radio" name="filtro" id="procesadores">
+                <label for="procesadores">Procesadores</label>
+
+                <input type="radio" name="filtro" id="laptops">
+                <label for="laptops">Laptops</label>
+
+                <input type="radio" name="filtro" id="accesorios">
+                <label for="accesorios">Accesorios</label>
+                
+                <h2 style="text-align: center;">Lista de productos</h2>
+                <div id="elementos" style="padding: 10px 0px;">
+                    <table    style="width: 100%; ">
+                        <tbody>
+                            <tr>
+                                <td  class="procesador" >
+                                    
+                                    <img src="imagenes/ryzen.jpg" style="width: 210px; height: 210px;" alt=""/>
+                                    <h4>Ryzen 7 (s/.450)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="1"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+
+                                <td class="procesador">
+
+
+                                    <img src="imagenes/p.jpg"  class="procesador" style=" width: 210px; height: 210px;" alt=""/>
+                                    <h4>Ryzen 5 (s/.350)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="2"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="laptop">
+
+
+                                    <img src="imagenes/laptop.jpg" alt=""/>
+                                    <h4>Laptop hp 1030 (s/.800)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="3"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+                                <td class="laptop">
+
+
+                                    <img src="imagenes/laptop2.jpg" alt=""/>
+                                    <h4>Laptop hp 2050 (s/.1200)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="4"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="laptop">
+
+
+                                    <img src="imagenes/laptop3.jpg" alt=""/>
+                                    <h3>Laptop hp 4059 (s/.900)</h3>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="5"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+                                <td class="laptop">
+
+
+                                    <img src="imagenes/laptophp.jpg" style=" width: 210px; height: 210px;" class="laptop" alt=""/>
+                                    <h4>Laptop hp 7085 (s/.750)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="6"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+                            <tr>
+                                <td class="accesorio">
+
+
+                                    <img src="imagenes/tarjetad.jpg"  class="accesorio" style=" width: 210px; height: 210px;" alt=""/>
+                                    <h4>Tarjeta 1050ti (s/.350)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="7"/> 
+                                        Agregar producto al carrito </h4>
+
+                                </td>
+
+                                <td class="accesorio">
+
+
+                                    <img src="imagenes/mouse.jpg" class="accesorio" style=" width: 210px; height: 210px;" 
+                                         alt=""/>
+                                    <h4>Mouse logitech (s/.50)</h4>
+                                    <h4 style="text-align: center;">   <input type="checkbox" name="txtxd[]" value="8"/> 
+                                        Agregar producto al carrito </h4>
+                                </td>
+
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+    
+
+    </form>
+</main>
+        <footer style="margin-top: 70px; background: black; color: white;">
+            <div class="contenedor">
+                <p class="copy" >Copyright 2020 &copy; - Sitio de prueba - Aviso legal, politica de privacidad y afiliación.       
+                    <br/> Para mayor información visite www.chernobylpage.com.pe.</p>
+                <div class="sociales">
+                    <a class="fontawesome-facebook-sign" href="#"></a>
+                    <a class="fontawesome-twitter" href="#"></a>
+                    <a class="fontawesome-camera-retro" href="#"></a>
+                    <a class="fontawesome-google-plus-sign" href="#"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+
+.fondo{
+    background: #333;
+}
+header, footer{
+  
+    color: lime;
+  
+}
+
+a{
+    color:cornflowerblue;
+    text-decoration: none;    
+}
+
+header a:hover, footer a:hover{
+    color:chartreuse;
+    
+}
+
+li{
+    display: block;
+    float: left;
+    width: 100px;
+    
+}
+
+
+
+button:hover{    
+    border: 1px solid #dedede;
+    background-color: blue;
+    color: darkcyan;
+    
+}
+
+
+
+
+#bajo{
+   margin-top: 90px;   
+}
+
+
+ /* Contenido  - Ingresar sesion html*/
+.bajo2{
+      margin-top: 90px; 
+    margin-right: 400px;
+    margin-left: 200px;
+    width: 800px;
+    height: 300px;
+  
+       
+}
+
+
+ /* Contenido  - Contactanos html*/
+.bajo3{
+   
+    margin-top: 90px; 
+    margin-right: 400px;
+    margin-left: 200px;
+    width: 800px;
+    height: 300px;
+}
+
+ /* Contenido  - Formulario html*/
+.bajo10{
+
+    margin-right: 400px;
+    margin-left: 200px;
+    width: 800px;
+    height: 300px;
+}
+
+
+
+
+
+.bajo5{
+    float: left;
+}
+.pr{
+   margin-left: 640px;
+  color: lime;
+   text-align: center;
+}
+
+nav ul li a:hover{
+   
+    font-family: arial black;
+}
+nav ul li a{
+  display: block;
+  line-height: 18px;
+  padding: 2px 20px;
+  margin-left: auto;
+  margin-right: -10px;
+    
+}
+li > a{
+           padding: 0px 10px;
+        }
+   nav{
+      background-color: darkslategrey;
+    
+            
+    }
+    
+    .b:hover{
+      
+        color: chartreuse;
+    }
+    
+    

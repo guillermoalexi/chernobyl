@@ -1,0 +1,197 @@
+body {
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+#contenedor {
+	width: 90%;
+	margin: auto;
+	background: radial-gradient(blue,#333);
+	text-align: center;
+	padding: 10px 5px;
+	border-radius: 10px;
+}
+
+input[type="radio"] { display: none; }
+
+label {
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+#elementos { margin-top: 20px; }
+
+img {
+	margin: 5px;
+	border-radius: 10px;
+
+}
+
+#contenedor #procesadores:checked ~ #elementos .laptop,
+#contenedor #procesadores:checked ~ #elementos .accesorio {
+	display: none;
+}
+
+
+#contenedor #laptops:checked ~ #elementos .procesador,
+#contenedor #laptops:checked ~ #elementos .accesorio {
+	display: none;
+}
+
+#contenedor #accesorios:checked ~ #elementos .laptop,
+#contenedor #accesorios:checked ~ #elementos .procesador {
+	display: none;
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo25{
+        font-size: 12px;
+         
+         
+    }
+    #contenedor{
+	width: 140%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+
+
+
+@media only screen and (min-width : 358px) and (max-width: 700px) {
+    .bajo25{
+        font-size: 14px;
+         
+         
+    }
+    #contenedor{
+	width: 120%;
+       
+	
+}
+    #elementos{
+	width: 100%;
+	
+}
+
+}
+
+
+
+
+

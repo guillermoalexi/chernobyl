@@ -1,0 +1,25 @@
+body {
+    background: #333;
+    color: white;
+    text-align: center
+    
+}
+.intra{
+    color: orangered;
+    text-decoration: none;
+}
+table{
+    color: white; 
+    margin-top: 100px; 
+    border-collapse: collapse; 
+    width: 100%;
+    margin-top: 10px;
+}
+@media only screen and (min-width : 1px) and (max-width: 357px) {
+    .bajo78{
+         font-size: 100px;
+         
+    }
+   
+}
+
